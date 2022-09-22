@@ -1,0 +1,88 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.login {
+  text-align: center;
+}
+
+.form-text {
+  display: block;
+  text-align: left;
+}
+
+input {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: darkcyan;
+  border-radius: 5px;
+  height: 20px;
+  width: 60px;
+  border: none;
+  color: white;
+}
+
+.profile {
+  width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.profile h2 {
+  text-align: center;
+}
+
+.profile img {
+  float: left;
+}
+
+.profile div {
+  float: right;
+}
+
+.friends {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.friends h2 {
+    text-align: center;
+}
+
+.friends ul {
+    color:darkcyan;
+    display: inline-block;
+}
+
+.friends .link {
+    color:darkcyan;
+}
+
+.friends div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.friend {
+    border: 1px solid rgb(200,200,200);
+}
+
+.friend p {
+    margin-left: 10px;
+}
